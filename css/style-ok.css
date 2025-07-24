@@ -1,0 +1,75 @@
+/*reset básico a todos os efeitos em box*/
+@charset "UTF-8";
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box; /*depois pesquisa esse feito na pagina no chatgpt ou no youtube*/
+    margin: 0px; /* anula as margem de origem das tags */
+    padding: 0px; /* anula os padding de origem das tags */
+   
+}
+   
+header {
+    position: absolute;
+    display: flex;
+    background-color:rgb(86, 160, 224);
+    width: 100%;
+    height: 600px;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, -0%); /* Para centralizar */
+}
+
+.cliente_joaojeronimo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+    width: 100vw;
+    z-index: -1;
+}
+
+
+
+main {
+    position: absolute;
+    background-color:black;
+    width: 1500px;
+    height: 70px;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Para centralizar */
+}
+
+main div {
+    text-align: center;
+}
+
+.logo {
+    margin: auto;
+}
+
+.praça {
+
+}
+
+footer {
+    position: absolute;
+    /*background-color:brown;*/
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, -0%); /* Para centralizar */
+}
+
+.suavezinho-log {
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    width: 200px;
+}
+
+footer p {
+    font-size: 50px; 
+}
+
